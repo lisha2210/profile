@@ -1,26 +1,9 @@
-"use client";
 import Image from "next/image"
 import Link from "next/link"
-import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { featureWork } from "@/app/data";
 
 const FeaturedWork = () => {
-    const [featureWork, setFeatureWork] = useState<any>(null);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch('/api/featured-work')
-                if (!res.ok) throw new Error('Failed to fetch')
-                const data = await res.json()
-                setFeatureWork(data?.featureWork)
-            } catch (error) {
-                console.error('Error fetching services:', error)
-            }
-        }
-
-        fetchData()
-    }, [])
 
     return (
         <section>

@@ -1,24 +1,7 @@
-"use client";
-import Image from "next/image"
-import { useEffect, useState } from "react";
+import Image from "next/image";
+import { certificationsData } from "@/app/data";
 
 const Certifications = () => {
-    const [certificationsData, setCertificationsData] = useState<any>(null);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch('/api/page-data')
-                if (!res.ok) throw new Error('Failed to fetch')
-                const data = await res.json()
-                setCertificationsData(data?.certificationsData)
-            } catch (error) {
-                console.error('Error fetching services:', error)
-            }
-        }
-
-        fetchData()
-    }, [])
 
     return (
         <section>
