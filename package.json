@@ -2,6 +2,7 @@
   "name": "package",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lisha2210.github.io/profile",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
