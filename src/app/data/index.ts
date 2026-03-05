@@ -1,6 +1,6 @@
 export const experienceData = [
     {
-        icon: "/images/icon/tailwind-icon.svg",
+        icon: "/profile/images/icon/tailwind-icon.svg",
         role: "Associate English Language Trainer",
         location: "British International Academy (ICSE), Puducherry",
         startYear: "Jun 2025",
@@ -11,7 +11,7 @@ export const experienceData = [
         ]
     },
     {
-        icon: "/images/icon/asana-icon.svg",
+        icon: "/profile/images/icon/asana-icon.svg",
         role: "Student Mentor-in-Training",
         location: "The English Academy, Madurai",
         startYear: "May 2025",
@@ -22,7 +22,7 @@ export const experienceData = [
         ]
     },
     {
-        icon: "/images/icon/asana-icon.svg",
+        icon: "/profile/images/icon/asana-icon.svg",
         role: "A House of Happy Mothers - Amulya Malladi",
         location: "Bharathidasan University (BDU), Tiruchirappalli",
         startYear: "Dec 2024",
@@ -108,14 +108,14 @@ export const featureWork = [
         title: "BEACH",
         description: "Some will understand and some may not: Not gonna lie, in my 22 years and 8 months on this chaotic Earth, I’ve always dreamt of seeing the beach the waves, the breeze, the salty air that smells like freedom...",
         roles: ["Writer", "Creator"],
-        image: "/images/feature-work/beach.png",
+        image: "/profile/images/feature-work/beach.png",
         url: "https://lishamuthukumar.blogspot.com/2025/07/beach.html"
     },
     {
         title: "Ghibli Trend why not AI",
         description: "Hayao Miyazaki (born 1941) is a legendary Japanese animator, filmmaker, screenwriter, author, and manga artist. For people unfamiliar with manga who might ask, “Hey, what’s manga?”...",
         roles: ["Writer", "Reviewer"],
-        image: "/images/feature-work/ghibli.png",
+        image: "/profile/images/feature-work/ghibli.png",
         url: "https://lishamuthukumar.blogspot.com/2025/03/ghibli-trend-why-not-ai.html"
     }
 ];
