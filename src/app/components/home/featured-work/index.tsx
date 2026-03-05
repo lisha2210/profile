@@ -13,7 +13,7 @@ const FeaturedWork = () => {
                         <div className="flex flex-col xs:flex-row gap-5 items-center justify-between">
                             <p className="text-sm tracking-[2px] text-primary uppercase font-medium">Featured work</p>
                             <Button asChild variant={"outline"} className="h-auto">
-                                <a href={"/profile/lisha_resume.pdf"} target="_blank" className="py-3 px-5">
+                                <a href={"/profile/resume/lisha%20Resume.pdf"} target="_blank" className="py-3 px-5">
                                     View Resume
                                 </a>
                             </Button>
